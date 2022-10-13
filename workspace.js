@@ -1,6 +1,6 @@
 console.log('Hello bro');
 
-let balance = 1000;
+/*let balance = prompt('Enter balance');
 const payment = 2000;
 
 console.log(
@@ -12,4 +12,13 @@ if (balance >= payment) {
 } else {
   console.log('На рахунку недостатньо коштів для проведення операції!');
 }
-console.log('Операція завершена');
+console.log('Операція завершена');*/
+
+const myMoney = 1000;
+console.log(`I have ${myMoney} dollars`);
+
+const gift = prompt('Give me some money');
+
+const updatedVallet = Number(myMoney) + Number(gift);
+
+console.log(`now I am rich, I have ${updatedVallet} dollars, ty for your gift <3`);
